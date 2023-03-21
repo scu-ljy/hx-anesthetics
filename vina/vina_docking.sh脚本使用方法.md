@@ -1,6 +1,6 @@
-# vina_docking.sh使用方法
-1. 首先将vina_docking.sh文件和affinity_extract.py文件放在docking执行根目录，例如/home/chaoyideng/Dy/ADT/ 
-2. 进入docking执行的目录，例: `cd /home/chaoyideng/Dy/ADT/` 
-3. 通过`bash vina_docking.sh`命令运行该脚本，也可以用`bash vina_docking.sh 2>&1 | tee results.log`命令来保存结果至results.log文件
-4. 开始需要输入一些参数来确保脚本正确运行，请参照提示输入，输入时不要有多余空格等符号；每输入一个参数，按回车输入下一个
+# vina_docking.sh使用方法 
+1. vina_docking.sh和affinity_extract.py脚本在`/home/chaoyideng/Dy/ADT/`目录，进入该目录`cd /home/chaoyideng/Dy/ADT/` 
+2. 通过`bash vina_docking.sh`命令运行脚本，也可以用`bash vina_docking.sh 2>&1 | tee results.log`命令来保存结果至results.log文件
+3. 开始需要输入一些参数来确保脚本正确运行，首先需要指定docking所需要完成的根目录,例如`/home/chaoyideng/Dy/ADT/m55/`
+4. 其他参数请参照提示输入，输入时不要有多余空格等符号；每输入一个参数，按回车输入下一个
 5. 等参数输完以后，开始执行，静候佳音！
