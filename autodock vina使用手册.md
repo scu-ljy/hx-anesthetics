@@ -29,7 +29,7 @@
 6. 批量对接
   - 新打开一个终端（教程上为：建立后台终端 `screen -R test2` ）
   - 激活vina环境  `conda activate vina`
-  执行: `for i in {1..N};do cd ./$i;vina --config config_file.arg > ./docking_log.log;echo $i;cd ../;done` （N为需要被docking的分子数量，config_file和log_file分别为你的配置文件和日志文件，两者可以替换为自己设定的路径+文件名，.arg和.log不用替换，配置文件需要用绝对路径来标出受体文件的位置）
+  执行: `for i in {1..N};do cd ./$i;vina --config /home/chaoyideng/.../config_file.arg > ./docking_log.log;echo $i;cd ../;done` （N为需要被docking的分子数量，config_file和log_file分别为你的配置文件和日志文件，两者可以替换为自己设定的路径+文件名，.arg和.log不用替换，配置文件需要用绝对路径来标出受体文件的位置）
    
 
   
