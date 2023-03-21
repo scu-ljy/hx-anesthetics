@@ -2,6 +2,7 @@
 #vina batch docking script
 #author: scu-ljy
 
+# 为了确保可以正常切换conda环境
 source ~/miniconda3/etc/profile.d/conda.sh
 
 echo "开始批处理docking:"
